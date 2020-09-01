@@ -90,7 +90,7 @@ function checkGender(){
                     document.getElementById("result").innerHTML = "The Day is on a Sunday." + "  " + "Your Akan Name is " + femaleNames[0];
                   break;
                   case 1 || -1:
-                    document.getElementById("result").innerHTML = "The Day is on a Mnday." + " " + "Your Akan Name is " + femaleNames[1];
+                    document.getElementById("result").innerHTML = "The Day is on a Monday." + " " + "Your Akan Name is " + femaleNames[1];
                   break;
                   case 2 || -2:
                     document.getElementById("result").innerHTML = "The Day is on a Tuesday." + " " + "Your Akan Name is " + femaleNames[2];
