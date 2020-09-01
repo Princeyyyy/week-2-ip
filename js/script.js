@@ -34,3 +34,14 @@ function calculateDay(){
       return dayOfWeek;
     }
 }
+//main caller func//
+function checkDayOfWeek(){
+    day = calculateDay();
+     checkGender();
+     console.log("The function runs");//Test chackDayOfWeek function//
+}
+
+//arrays//
+let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
